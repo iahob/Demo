@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="demo_folly_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_folly_test">
+				<Option output="/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/demo_folly_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/wangle/2021.12.13.00/include"/>
+					<Add directory="/usr/local/Cellar/folly/2021.12.13.00/include"/>
+					<Add directory="/usr/local/Cellar/gflags/2.2.2/include"/>
+					<Add directory="/usr/local/Cellar/openssl@1.1/1.1.1m/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.76.0/include"/>
+					<Add directory="/usr/local/Cellar/glog/0.5.0/include"/>
+					<Add directory="/usr/local/Cellar/double-conversion/3.1.6/include"/>
+					<Add directory="/usr/local/Cellar/libevent/2.1.12/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_folly_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_folly_test/fast">
+				<Option output="/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/demo_folly_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/wangle/2021.12.13.00/include"/>
+					<Add directory="/usr/local/Cellar/folly/2021.12.13.00/include"/>
+					<Add directory="/usr/local/Cellar/gflags/2.2.2/include"/>
+					<Add directory="/usr/local/Cellar/openssl@1.1/1.1.1m/include"/>
+					<Add directory="/usr/local/Cellar/boost/1.76.0/include"/>
+					<Add directory="/usr/local/Cellar/glog/0.5.0/include"/>
+					<Add directory="/usr/local/Cellar/double-conversion/3.1.6/include"/>
+					<Add directory="/usr/local/Cellar/libevent/2.1.12/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo_folly_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/yuhaibo/CLionProjects/demo_folly_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yuhaibo/CLionProjects/demo_folly_test/main.cpp">
+			<Option target="demo_folly_test"/>
+		</Unit>
+		<Unit filename="/Users/yuhaibo/CLionProjects/demo_folly_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
